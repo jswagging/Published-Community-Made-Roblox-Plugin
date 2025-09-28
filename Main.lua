@@ -1,4 +1,4 @@
--- Add anything...
+-- Add anything... (by forking this project)
 -- Every change will be approved by JamerchGIT!
 
 local toolbar = plugin:CreateToolbar("PCMRP")
