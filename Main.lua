@@ -29,6 +29,7 @@ end)
 
 randomlighting.Click:Connect(randomlight)
 
+
 jamerbutton.Click:Connect(function()
 	local jamer = game:GetService("Players"):CreateHumanoidModelFromUserId(4064527808)
 	jamer.Parent = workspace
