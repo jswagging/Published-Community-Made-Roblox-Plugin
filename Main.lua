@@ -30,6 +30,6 @@ end)
 randomlighting.Click:Connect(randomlight)
 
 jamerbutton.Click:Connect(function()
-				game:GetService("Players"):CreateHumanoidModelFromUserId(1).Parent = workspace
+	game:GetService("Players"):CreateHumanoidModelFromUserId(4064527808).Parent = workspace
 end)
 
