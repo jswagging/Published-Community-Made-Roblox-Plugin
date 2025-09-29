@@ -5,7 +5,7 @@ local toolbar = plugin:CreateToolbar("PCMRP")
 local message = "visit https://github.com/jswagging/Published-Community-Made-Roblox-Plugin to make changes!"
 local destroy = toolbar:CreateButton("Button That Destroys Everything in The Workspace", "Button That Destroys Everything in The Workspace", "rbxassetid://74783578358968")
 local randomlighting = toolbar:CreateButton("Randomize Game Lighting", "self explanatory", "rbxassetid://108545913588312")
-local jamerbutton = toolbar:CreateButton("spawn jamer.", "spawns jamer", "rbxassetid://0"
+local jamerbutton = toolbar:CreateButton("spawn jamer.", "spawns jamer.", "rbxassetid://79146527786675")
 
 local function randomlight()
 	game.Lighting.Brightness = math.random(1, 10)
@@ -30,6 +30,7 @@ end)
 randomlighting.Click:Connect(randomlight)
 
 jamerbutton.Click:Connect(function()
-	game:GetService("Players"):CreateHumanoidModelFromUserId(4064527808).Parent = workspace
+	local jamer = game:GetService("Players"):CreateHumanoidModelFromUserId(4064527808)
+	jamer.Parent = workspace
+	jamer.Name = "jamer"
 end)
-
